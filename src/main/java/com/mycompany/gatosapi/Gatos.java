@@ -2,17 +2,17 @@ package com.mycompany.gatosapi;
 
 public class Gatos {
     
-    private int ID;
+    private String id;
     private String url;
     private String APIkey = "08d4a56d-f773-4261-bb2b-f5631e1bcb05";
     private String image;
 
-    public int getID() {
-        return ID;
+    public String getID() {
+        return id;
     }
 
-    public void setID(int ID) {
-        this.ID = ID;
+    public void setID(String ID) {
+        this.id = ID;
     }
 
     public String getUrl() {
